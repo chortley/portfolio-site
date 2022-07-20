@@ -9,6 +9,10 @@
 /*  font-family: 'Open Sans', sans-serif;*/
 /*}*/
 
+.cards {
+  background-color: cornflowerblue;
+}
+
 h1, h2, h3, h5 {
   margin: 0;
 }
@@ -35,13 +39,15 @@ h1, h2, h3, h5 {
 .cards {
   display: flex;
   align-items: flex-start;
-    justify-content: center;
+  justify-content: center;
+  /*width: min(100% - 2rem);*/
+  margin-inline: auto;
 }
 
 .card {
   background: #fff;
-  width: 24em;
-    height: 30em;
+  width: 20em;
+    height: 26em;
   border-radius: 0.6em;
   margin: 1em;
   overflow: hidden;

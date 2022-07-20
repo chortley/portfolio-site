@@ -3,12 +3,9 @@ import './Intro.css'
 const Intro = () => {
     return (
          <div className={'i'}>
-
             <div className={'i-left'}>
-
                 <div className={'i-left-wrapper'}>
                           <div className={'i-bg'}>
-
                           </div>
                     <h2 className={'i-intro'}>Hello, I'm</h2>
                     <h2 className={'i-name'}>Christopher Eglinton</h2>
